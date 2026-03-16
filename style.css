@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #dddbdb;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+  background: rgb(253, 253, 253);
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #000000;
+  letter-spacing: 3px;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #545252;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+.skills p {
+  margin: 4px 0;
+}
